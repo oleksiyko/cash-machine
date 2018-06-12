@@ -1,1 +1,10 @@
-API for infinite cash machine with infinite account
+Console application to emulate withdraw of cash from cash machine
+
+Usage:
+  bin/cash-machine [options]
+
+Options:
+  --amount[=amount] Amount of cash to withdraw
+
+Examples:
+  bin/cash-machine --amount=290

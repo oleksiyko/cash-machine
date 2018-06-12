@@ -61,7 +61,7 @@ class InfiniteCashMachine
         }
         if ($amount % $this->getMinimalNote() > 0) {
             throw new NoteUnavailableException(
-                sprintf('Amount should be aliquot to minimal note value(%s)', $this->getMinimalNote())
+                sprintf('Amount should be aliquot to minimal note value - %s', $this->getMinimalNote())
             );
         }
     }
